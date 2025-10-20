@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Lora, IBM_Plex_Mono } from "next/font/google";
-// @ts-expect-error: no type declarations for side-effect import of CSS
 import "./global.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
