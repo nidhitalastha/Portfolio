@@ -39,7 +39,7 @@ export function Education() {
             <div className="w-1 bg-border h-full"></div>
           </div>
 
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-24 flex flex-col justify-between py-8">
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-22 flex flex-col justify-between py-8">
             <div className="h-1 bg-border w-full"></div>
             <div className="h-1 bg-border w-full"></div>
             <div className="h-1 bg-border w-full"></div>

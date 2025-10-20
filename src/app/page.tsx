@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex items-center justify-between gap-8">
               <div className="flex-1 max-w-3xl">
                 <h1 className="text-5xl md:text-7xl font-bold font-sans bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  Hi, I'm Nidhi
+                  Hi, I&apos;m Nidhi
                 </h1>
 
                 <div className="mt-4 text-2xl md:text-3xl font-semibold text-foreground">
