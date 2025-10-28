@@ -3,6 +3,7 @@ import { Navbar } from "@/components/navbar";
 import { Education } from "@/components/education";
 import { Hero } from "@/components/hero";
 import { Experience } from "@/components/experience";
+import { Projects } from "@/components/projects";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -12,14 +13,7 @@ export default function Home() {
       <Hero />
       <Education />
       <Experience />
-      <section id="projects" className="min-h-screen flex items-center justify-center bg-card">
-        <div className="container mx-auto px-4 py-16">
-          <h2 className="text-4xl font-bold font-sans mb-8">Featured Projects</h2>
-          <p className="text-lg text-muted-foreground">
-            Projects section content coming soon...
-          </p>
-        </div>
-      </section>
+      <Projects />
       <Footer />
     </div>
   );
