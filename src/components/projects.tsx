@@ -5,54 +5,54 @@ export function Projects() {
   const projectsData = [
     {
       id: 1,
-      title: "AI-Powered Chatbot",
-      description: "Intelligent conversational assistant using natural language processing",
-      category: "NLP",
-      technologies: ["Python", "TensorFlow", "Flask", "MongoDB"],
-      timeframe: "Jan 2024 - Mar 2024",
-      githubUrl: "https://github.com/nidhitalastha/project-1",
+      title: "Time-Ago package",
+      description: `A lightweight JavaScript utility to convert timestamps into human-readable "time ago" format (e.g., "3 minutes ago", "2 hours ago").`,
+      category: "NPM Package",
+      technologies: ["Javascript"],
+      timeframe: "Aug 2025",
+      githubUrl: "https://github.com/nidhitalastha/time-ago",
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack online shopping application with payment integration",
-      category: "Web App",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      timeframe: "Apr 2024 - Jun 2024",
-      githubUrl: "https://github.com/nidhitalastha/project-2",
+      title: "Adversarial Attacks on NLP Models(Text Perturbation)",
+      description: "This research explores how adversarial text perturbations can manipulate the predictions of Natural Language Processing (NLP) models like BERT and distilBERT. The goal is to evaluate model robustness and understand vulnerabilities in common text classification systems.",
+      category: "AI/ML",
+      technologies: ["Tensorflow", "Transformers", "TextAttack", "PyTorch", "Numpy", "Pandas"],
+      timeframe: "Jan 2025 - May 2025",
+      githubUrl: "https://github.com/nidhitalastha/Adversarial-Attacks-on-NLP-Models",
     },
     {
       id: 3,
-      title: "Security Scanner",
-      description: "Automated vulnerability detection and network security analysis tool",
-      category: "Security",
-      technologies: ["Python", "Nmap", "Docker", "FastAPI"],
-      timeframe: "Jul 2024 - Sep 2024",
-      githubUrl: "https://github.com/nidhitalastha/project-3",
+      title: "DevAssistAI",
+      description: "A VS code extension that lets users intergrate with multiple LLMs for pair programming, error debugging, creating boiler plate templates and deployment yaml files. Implemented with chain of thoughts and tools usage concepts.",
+      category: "LLMs",
+      technologies: ["OpenAI", "Gemini", "TypeScript", "JavaScript", "CSS"],
+      timeframe: "Sept 2024 - Jan 2025",
+      githubUrl: "https://github.com/nidhitalastha/DevAssistAI",
     },
     {
       id: 4,
-      title: "LLM Fine-tuning Framework",
-      description: "Custom framework for training and deploying large language models",
-      category: "LLMs",
-      technologies: ["PyTorch", "HuggingFace", "AWS", "TypeScript"],
-      timeframe: "Oct 2024 - Dec 2024",
-      githubUrl: "https://github.com/nidhitalastha/project-4",
+      title: "AWS Cost Estimation and Analysis",
+      description: "This project provides a centralized view of cloud expenses based on customizable parameters such as RAM, usage, region, and operating system. It helps users estimate and compare costs across different configurations, enabling informed infrastructure and budgeting decisions.",
+      category: "Web App",
+      technologies: ["Python", "React", "JavaScript", "CSS"],
+      timeframe: "Jan 2024 - May 2024",
+      githubUrl: "https://github.com/nidhitalastha/acs_575_term_project",
     },
   ];
 
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
-      "NLP": "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
+      "NPM Package": "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
       "Web App": "bg-green-500/10 text-green-600 dark:text-green-400 border-green-500/20",
-      "Security": "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20",
+      "AI/ML": "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20",
       "LLMs": "bg-purple-500/10 text-purple-600 dark:text-purple-400 border-purple-500/20",
     };
     return colors[category] || "bg-gray-500/10 text-gray-600 dark:text-gray-400 border-gray-500/20";
   };
 
   return (
-    <section id="projects" className="min-h-screen flex items-center justify-center bg-card py-16">
+    <section id="projects" className="flex items-center justify-center bg-card py-26">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold font-sans text-center mb-16">
           Featured Projects
