@@ -27,7 +27,7 @@ export function Education() {
   ];
 
   return (
-    <section id="education" className="min-h-screen flex items-center justify-center py-16">
+    <section id="education" className="flex items-center justify-center py-26">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold font-sans text-center mb-16">
           Education

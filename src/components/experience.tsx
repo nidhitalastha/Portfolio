@@ -88,9 +88,9 @@ export function Experience() {
   }, [api])
 
   return (
-    <section id="experience" className="min-h-screen flex items-center justify-center py-16 bg-muted/30">
+    <section id="experience" className="flex items-center justify-center py-26 bg-muted/30">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold font-sans text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold font-sans text-center mb-10">
           Experience
         </h2>
         
